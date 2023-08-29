@@ -8,12 +8,90 @@
     <title>MAIN PAGE</title>
 </head>
 <body>
+
+    <div class="navbar" id="close">
+        <div class="toggleButton">
+            <button onclick="toggleNavbar()">
+                <ReorderIcon /> 
+            </button>
+        </div>
+        <div class="links">
+            <a href="https://viraj63.github.io/virajvhatkar/#/" class="highlight">HOME</a>
+            <a href="https://viraj63.github.io/virajvhatkar/#/about" class="highlight">ABOUT</a>
+            <a href="https://viraj63.github.io/virajvhatkar/#/projects" class="highlight">PROJECTS</a>
+            <a href="https://viraj63.github.io/virajvhatkar/#/experience" class="highlight">EXPERIENCE</a>
+            <div class="resume">
+                <a href="https://github.com/viraj63/virajvhatkar/raw/main/src/components/Navbar/Viraj_Vhatkar_resume.pdf" download="Resume_Viraj_Vhatkar">
+                    <button>Download_Resume</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        function toggleNavbar() {
+            const navbar = document.querySelector('.navbar');
+            const isOpen = navbar.id === 'open';
+            navbar.id = isOpen ? 'close' : 'open';
+        }
+    </script>
     <div class="container">
-        <h1>Welcome to my Personal Website!</h1>
-        <h2>Check out my youtube channel for web game tutorials!</h2>
-        <h2>Don't forget to like and subscribe to my youtube channel!</h2>
-        <a href="./graph_visualization_6.html"><h2>Click here to learn about me!</h2></a>
+
+
+
+
+
+
+        <div class="class_1">
+            <h1>
+                Viraj Vhatkar
+            </h1>
+        </div>
+
+        <div class="inner_1_1">
+            <div class="inner_1_2">
+                <div class="_a_3">
+                    <a href="https://viraj63.github.io/virajvhatkar/#/projects" class="project-tag">Graph</a>
+                </div>
+                <div class="_a_3">
+                    <a href="https://viraj63.github.io/virajvhatkar/#/projects" class="project-tag">UIUX</a>
+                </div>
+                <div class="_a_3">
+                    <a href="https://viraj63.github.io/virajvhatkar/#/projects" class="project-tag">Ideation</a>
+                </div>
+                <div class="_a_3">
+                    <a href="https://cran.r-project.org/web/packages/visNetwork/index.html" class="project-tag">VizNetworks</a>
+                </div>
+            </div>
+        </div>
         
+        <div class="project_name">
+            <h2>
+                Graph Network
+            </h2>
+        </div>
+        
+        <!-- </div> -->
+        
+        <!-- <img src={projectimag} alt='image1' class='paten_image_1' /> -->
+        
+        <div class="project_content_101">
+            <h2>
+                Embark on an Unforgettable Marvel Cinematic Journey: From Origins to Infinity and Beyond!            </h2>
+        </div>
+
+       <!--  !--  <a href="./graph_visualization_6.html"><h2>Click here to learn about me!</h2></a> -->
+        <iframe src="https://viraj63.github.io/vt.github.io/graph_visualization_6.html"  width="98%" height="980"></iframe>
+        <br /><br />
+        <br /><br />
+        <br /><br />
+
+
+        <a class="box_1">Next Project</a>
+
+<!-- <a href="/project_2" class="box_2">Light Fidelity</a> -->
+
+<a href="https://viraj63.github.io/vt.github.io/" class="box_2">Testing Project (Work Under Progress)</a>
     </div>
     <script src="graph_visualization_6.html"></script>
 </body>
