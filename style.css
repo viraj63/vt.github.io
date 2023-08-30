@@ -313,3 +313,11 @@ body {
     color: #116d11;
     border-bottom: 3px solid #25566d ;
   }
+
+
+  .details{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.4em;
+    padding-left: 3rem; 
+    padding-right: 30px;
+}
