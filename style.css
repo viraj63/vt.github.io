@@ -294,12 +294,11 @@ body {
     padding-right: 30px;
 }
 
-.details {
+.shape {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 2em;
-    padding-left: 3rem;
-    padding-right: 80px;
-    margin-right: 100px;
+    font-size: 1.4em;
+    padding-right: 30px;
+  
 
 }
 
@@ -342,3 +341,96 @@ body {
     color: #116d11;
     border-bottom: 3px solid #25566d;
 }
+
+.bloc-logo {
+    position: relative;
+    width: 100%;
+    height: 200px;
+  }
+  
+  #logo-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;    width: 100%;
+    height: 200px;
+  }
+  
+  .footer {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+  }
+  
+  .socialMedia {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+
+
+
+
+
+
+
+
+.socialMedia svg {
+    color: rgb(255, 255, 255);
+    margin: 20px;
+    font-size: 70px;
+    cursor: pointer;
+   
+}
+
+.footer p {
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer svg {
+        font-size: 50px;
+    }
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    padding-top: 21px;
+    padding-left: 10px;
+  }
+
+  .phase {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    margin-right: 6px;
+    font-size: 16px;
+}
+
+
+.phase-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .circle {
+    margin-right: 10px;
+  }
+
+  .phase-text {
+    font-size: 16px;
+  }
+
+  .years {
+    font-size: 14px;
+  }
