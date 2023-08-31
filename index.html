@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">    
     <title>HTML APP</title>
+    <script src="https://cdn.jsdelivr.net/npm/granim@1.0.0/dist/granim.min.js"></script>
 </head>
 <body>
 <!-- https://kateto.net/network-visualization -->
@@ -82,8 +83,115 @@
 
        <!--  !--  <a href="./graph_visualization_6.html"><h2>Click here to learn about me!</h2></a> -->
         <iframe src="https://viraj63.github.io/vt.github.io/graph_visualization_6.html"  width="98%" height="980"></iframe>
-        
-        
+
+
+     <!-- <div class="shape">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Phase 1:<svg width="80" height="80"><circle cx="30" cy="50" r="20" stroke="black" stroke-width="2" fill="blue" /> </svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Phase 2:<svg width="80" height="80"><circle cx="30" cy="50" r="20" stroke="black" stroke-width="2" fill="blue" /> </svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Phase 3:<svg width="80" height="80"><circle cx="30" cy="50" r="20" stroke="black" stroke-width="2" fill="blue" /> </svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Phase 4:<svg width="80" height="80"><circle cx="30" cy="50" r="20" stroke="black" stroke-width="2" fill="blue" /> </svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Phase 5:<svg width="80" height="80"><circle cx="30" cy="50" r="20" stroke="black" stroke-width="2" fill="blue" /> </svg>
+     </div>-->
+
+
+<div class="container1">
+  <div class="phase-container">
+    <div>
+      <div class="phase-text">MCU_Phase 1:</div>
+      <div class="years">(2008–2012)</div>
+    </div>
+    <div class="circle">
+      <svg width="40" height="40">
+        <circle cx="20" cy="20" r="15" stroke="black" stroke-width="2" fill="#ff8000" />
+      </svg>
+    </div>
+   
+  </div>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+  <div class="phase-container">
+    <div>
+      <div class="phase-text">MCU_Phase 2:</div>
+      <div class="years">(20013–2015)</div>
+    </div>
+    <div class="circle">
+      <svg width="40" height="40">
+        <circle cx="20" cy="20" r="15" stroke="black" stroke-width="2" fill="#a200ff" />
+      </svg>
+    </div>
+   
+  </div>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+  <div class="phase-container">
+    <div>
+    <div class="phase-text">MCU_Phase 3:</div>
+    <div class="years">(2016–2019)</div>
+    </div>
+    <div class="circle">
+      <svg width="40" height="40">
+        <circle cx="20" cy="20" r="15" stroke="black" stroke-width="2" fill="#04E762" />
+      </svg>
+    </div>
+    <div>
+
+    </div>
+  </div>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <div class="phase-container">
+    <div>
+    <div class="phase-text">MCU_Phase 4:</div>
+    <div class="years">(2019–2022)</div>
+  </div>
+    <div class="circle">
+      <svg width="40" height="40">
+        <circle cx="20" cy="20" r="15" stroke="black" stroke-width="2" fill="#ff005c" />
+      </svg>
+    </div>
+    <div>
+
+    </div>
+  </div>
+
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <div class="phase-container">
+    <div>
+    <div class="phase-text">MCU_Phase 5:</div>
+    <div class="years">(2023–2025)</div>
+  </div>
+    <div class="circle">
+      <svg width="40" height="40">
+        <circle cx="20" cy="20" r="15" stroke="black" stroke-width="2" fill="#ffff00" />
+      </svg>
+    </div>
+    <div>
+
+    </div>
+  </div>
+
+
+
+
+</div>
+
+
+
+      
+    
+    
+    
+  
+    
+
+
+
+
+
+
         <div class="project_content_101">
             <br>
             </br>
@@ -155,6 +263,59 @@
 <!-- <a href="/project_2" class="box_2">Light Fidelity</a> -->
 
 <a href="https://viraj63.github.io/virajvhatkar/#/project_12" class="box_2">Apple_INC</a>
+
+
+
+<div class="bloc-logo">
+    <canvas id="logo-canvas"></canvas>
+
+    <div class="footer">
+      <div class="socialMedia">
+        <a href="https://www.instagram.com/viraj_vhatkar.6/">
+          <!-- Replace with Instagram icon image -->
+          <img src="path_to_instagram_icon_image" alt="Instagram">
+        </a>
+        <a href="https://twitter.com/VirajVhatkar">
+          <!-- Replace with Twitter icon image -->
+          <img src="path_to_twitter_icon_image" alt="Twitter">
+        </a>
+        <a href="https://www.linkedin.com/in/viraj-vhatkar">
+          <!-- Replace with LinkedIn icon image -->
+          <img src="path_to_linkedin_icon_image" alt="LinkedIn">
+        </a>
+        <a href="https://github.com/viraj63">
+          <!-- Replace with GitHub icon image -->
+          <img src="path_to_github_icon_image" alt="GitHub">
+        </a>
+      </div>
+      <p>&copy; 2023 Viraj</p>
+    </div>
+  </div>
+
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      new Granim({
+        element: "#logo-canvas",
+        direction: "left-right",
+        opacity: [1, 1],
+        states: {
+          "default-state": {
+            gradients: [
+              ["#ee9ca7", "#0f9b0f"],
+              ["#ffdde1", "#ff9a9e"],
+              ["#ff7b59", "#ff4d00"],
+              ["#ff9a9e", "#ffdde1"],
+              ["#ff4d00", "#ff7b59"],
+              ["#ffdde1", "#ff9a9e"],
+            ],
+            transitionSpeed: 2000,
+          },
+        },
+      });
+    });
+  </script>
+
     </div>
     <script src="graph_visualization_6.html"></script>
 </body>
